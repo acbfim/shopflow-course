@@ -1,0 +1,6 @@
+@shopflow.api_HostAddress = http://localhost:5116
+
+GET {{shopflow.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
