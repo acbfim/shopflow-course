@@ -13,7 +13,7 @@ namespace shopflow.contract.Model.Entities.Customer
         public string FullName { get; set; }
 
         public List<Contact>? Contacts { get; set; }
-        public List<Document> Documents { get; set; }
-        public List<Address> Addresses { get; set; }
+        public List<Document>? Documents { get; set; }
+        public List<Address>? Addresses { get; set; }
     }
 }
